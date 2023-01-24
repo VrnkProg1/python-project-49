@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["nika <khitrozhopyy_ananasik@mail.ru>"]
 readme = "README.md"
-packages = [{include = "brain-games"}]
+packages = [{include = "brain_games"}]
 
 
 [tool.poetry.dependencies]
