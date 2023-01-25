@@ -24,7 +24,7 @@ def main():
           count += 1
       else:
           print(f"'{answer}'", 'is wrong answer ;(. Correct answer was ', f"'{value}'")
-          print("Let's try again, " + name)
+          print("Let's try again, " + name + '!')
           break
   if count == 3:
       print('Congratulations, ' + name + '!')
