@@ -29,5 +29,7 @@ def main():
        print('Congratulations, ' + name)
 
 
-if __name__.py == '__main__.py':
+if __name__ == '__main__':
     main()
+
+
