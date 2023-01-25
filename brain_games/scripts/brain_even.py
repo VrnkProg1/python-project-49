@@ -23,7 +23,7 @@ def main():
           print('Correct!')
           count += 1
       else:
-          print(answer, 'is wrong answer ;(. Correct answer was ' + "'{value}'")
+          print(f"'{answer}'", 'is wrong answer ;(. Correct answer was ', f"'{value}'")
           print("Let's try again, " + name)
           break
   if count == 3:
