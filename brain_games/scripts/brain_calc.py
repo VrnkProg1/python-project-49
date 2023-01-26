@@ -11,8 +11,8 @@ def main():
     print('What is the result of the expression?')
 
     count += 1
-    while count < 3:
-        list = [f"{+}, {-}, {*}"]
+    while count < 3:1
+        list = ['+', '-', '*']
         value1 = random.randint(1, 100)
         value2 = random.randint(1, 100)
         operator = random.choise(list)
