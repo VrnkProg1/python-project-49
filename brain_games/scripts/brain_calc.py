@@ -27,9 +27,9 @@ def main():
             question1 = f'{value1} {"*"} {value2}'
         print('Question: ', question1)
         answer = prompt.string('Your answer: ')
-        if answer == value:
+        if int(answer) == value:
             print('Correct!')
-        elif answer != value:
+        elif int(answer) != value:
             print(f"'{answer}'", 'is wrong answer ;(. Correct answer was ', f"'{value}'")
             print("Let's try again, " + name + '!')
             break
