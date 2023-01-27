@@ -1,4 +1,4 @@
-def even():
+def even(x):
     from random import randint
     import prompt
     from brain_games.game_engine import name1 
