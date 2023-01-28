@@ -1,4 +1,6 @@
-def brain_even():
+
+
+def even():
     from random import randint
 
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -6,7 +8,8 @@ def brain_even():
     while count < 3:
         a = randint(1, 100)
         if a % 2 == 0:
-            value = 'yes'
+            val = 'yes'
         elif a % 2 != 0:
-            value = 'no'
+            val = 'no'
         print('Question: ', a)
+        return val
