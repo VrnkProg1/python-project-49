@@ -2,7 +2,6 @@ import prompt
 from brain_games.games.brain_even import rules
 
 def welcome_user(game):
-    
     print('Welcome to the Brain Games! ')
     name = prompt.string('May I have your name? ')
     print('Hello,', name + '!')

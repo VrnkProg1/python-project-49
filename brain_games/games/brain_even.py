@@ -10,7 +10,5 @@ def even():
         val = 'yes'
     elif a % 2 != 0:
         val = 'no'
-    print('Question: ', a)
+    print('Question:', a)
     return val
-
-even()
