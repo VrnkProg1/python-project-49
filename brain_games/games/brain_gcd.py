@@ -1,10 +1,8 @@
 from random import randint
-
-def rules():
-    print('Find the greatest common divisor of given numbers.')
-
+    
 
 def gcd():
+    print('Find the greatest common divisor of given numbers.')
     a = randint(1, 1000)
     b = randint(1, 1000)
     print('Question:', a, b)
@@ -15,3 +13,5 @@ def gcd():
             b = b % a
     val = a + b
     return val
+    val = string(val)
+    
