@@ -10,3 +10,5 @@
 [Наибольший общий делитель (НОД)](https://asciinema.org/a/OJ0GJwpZMgc7rBQiBRLoEuRvL)
 
 [Арифметическая прогрессия](https://asciinema.org/a/MJ05B9jAK6HqySiofYEeIB4qk)
+
+[Простое ли число](https://asciinema.org/a/RpiVfJICH24O2H7KqedwhhTUv)
