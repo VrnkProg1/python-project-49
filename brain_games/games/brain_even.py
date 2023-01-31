@@ -1,8 +1,9 @@
 from random import randint
 
+def rules():
+    print('Answer "yes" if the number is even, otherwise answer "no".')
 
 def even():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
     a = randint(1, 100)
     if a % 2 == 0:
         val = 'yes'

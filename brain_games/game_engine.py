@@ -1,10 +1,11 @@
 import prompt
 
-def welcome_user(game):
+def welcome_user(rulsearg, game):
     print('Welcome to the Brain Games! ')
     name = prompt.string('May I have your name? ')
     print('Hello,', name + '!')
     count = 0
+    rulsearg()
     while count < 3:
         value = game()
         answer = prompt.string('Your answer: ')

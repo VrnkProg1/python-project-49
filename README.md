@@ -6,3 +6,5 @@
 [Asciinema even](https://asciinema.org/a/upGne8wMNye1vUmkZximI01g4)
 
 [Ascinema calc](https://asciinema.org/a/Bh8Wl2qwtPTin9de3a6TSHNrF)
+
+[Ascinema gcd](https://asciinema.org/a/OJ0GJwpZMgc7rBQiBRLoEuRvL)

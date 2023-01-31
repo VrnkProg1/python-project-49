@@ -1,8 +1,9 @@
 import random
 
+def rules():
+    print('What is the result of the expression?')
 
 def calc():
-    print('What is the result of the expression?')
     list = ['+', '-', '*']
     value1 = random.randint(1, 100)
     value2 = random.randint(1, 100)
