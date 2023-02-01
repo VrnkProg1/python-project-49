@@ -3,6 +3,7 @@ import random
 def rules():
     print('What is the result of the expression?')
 
+
 def calc():
     list = ['+', '-', '*']
     value1 = random.randint(1, 100)
