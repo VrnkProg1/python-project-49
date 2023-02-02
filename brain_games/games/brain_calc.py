@@ -1,5 +1,6 @@
 import random
 
+
 def rules():
     print('What is the result of the expression?')
 

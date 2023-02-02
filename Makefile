@@ -16,7 +16,7 @@ package-install:
 package-reinstall:
 	pip install --user --force-reinstall dist/*.whl
 
-make-lint:
+make lint:
 	poetry run flake8 brain_games
 
 brain-even:

@@ -1,7 +1,9 @@
 import random
 
+
 def rules():
     print('What number is missing in the progression?')
+
 
 def progression():
     list = []
@@ -19,5 +21,3 @@ def progression():
         a += f'{i} '
     print('Question:', a)
     return val
-
-

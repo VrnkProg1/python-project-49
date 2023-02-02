@@ -1,5 +1,6 @@
 import prompt
 
+
 def welcome_user(rulsearg, game):
     print('Welcome to the Brain Games! ')
     name = prompt.string('May I have your name? ')
@@ -12,8 +13,9 @@ def welcome_user(rulsearg, game):
         if answer == str(value):
             print('Correct!')
             count += 1
+            a = 'is wrong answer ;(. Correct answer was'
         elif answer != value:
-            print(f"'{answer}'", 'is wrong answer ;(. Correct answer was ', f"'{value}'")
+            print(f"'{answer}'", a, f"'{value}'")
             print("Let's try again, " + name + '!')
             break
         if count == 3:
