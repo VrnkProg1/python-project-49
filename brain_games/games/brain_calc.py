@@ -19,5 +19,5 @@ def calc():
     else:
         val = value1 * value2
         question = f'{value1} {"*"} {value2}'
-    print('Question: ', question)
+    print('Question:', question)
     return val
