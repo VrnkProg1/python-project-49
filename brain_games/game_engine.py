@@ -10,11 +10,12 @@ def welcome_user(rulsearg, game):
     while count < 3:
         value = game()
         answer = prompt.string('Your answer: ')
+        wrong = 'is wrong answer ;(. Correct answer was'
         if answer == str(value):
             print('Correct!')
             count += 1
         elif answer != value:
-            print(f"'{answer}'", 'is wrong answer ;(. Correct answer was', f"'{value}'")
+            print(f"'{answer}' {wrong} '{value}'")
             print("Let's try again, " + name + '!')
             break
         if count == 3:
