@@ -13,9 +13,8 @@ def welcome_user(rulsearg, game):
         if answer == str(value):
             print('Correct!')
             count += 1
-            a = 'is wrong answer ;(. Correct answer was'
         elif answer != value:
-            print(f"'{answer}'", a, f"'{value}'")
+            print(f"'{answer}'", 'is wrong answer ;(. Correct answer was', f"'{value}'")
             print("Let's try again, " + name + '!')
             break
         if count == 3:
