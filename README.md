@@ -3,20 +3,15 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/e1635aff1ff706e4c52a/maintainability)](https://codeclimate.com/github/VrnkProg1/python-project-49/maintainability)
 
-Проект Brain-games включает в себя 5 игр:
-    Четное-нечетное
-    Калькулятор
-    аибольший общий делитель(НОД)
-    Арифметическая прогрессия
-    Простое ли число
+Проект Brain-games включает в себя 5 игр: четное-нечетное, калькулятор, наибольший общий делитель(НОД), арифметическая прогрессия, простое ли число.
 В каждой игре необходимо правильно ответить на 3 вопроса для победы. 
 
 Минимальные требования:
-    1. PIP
-    2. Poetry
-    3. Пакет hexlet-code
-    4. Библиотека prompt
-
+    1. PIP 
+    2. Poetry 
+    3. Пакет hexlet-code 
+    4. Библиотека prompt 
+ 
 1. Удостоверьтесь, что у вас установлен свежий pip. Потребуется версия 19 и выше. 
 2. [Установите пакет и библиотеку](https://asciinema.org/a/PAcQxq5xfo6tAUYYx0LjOsj6b):
  pip install --user --force-reinstall dist/*.whl 
