@@ -25,10 +25,11 @@
     3. Пакет hexlet-code 
     4. Библиотека prompt 
  
- 
+
 1. Удостоверьтесь, что у вас установлен свежий pip. Потребуется версия 19 и выше. 
-2. [Установите пакет и библиотеку](https://asciinema.org/a/PAcQxq5xfo6tAUYYx0LjOsj6b):
+2. [Установите пакет](https://asciinema.org/a/PAcQxq5xfo6tAUYYx0LjOsj6b):
  pip install --user --force-reinstall dist/*.whl 
+3. [Установите библиотеку prompt](https://asciinema.org/a/FwgVAXZyIpXSaWXMcR3rnxbat)
 
 [Четное-нечетное](https://asciinema.org/a/upGne8wMNye1vUmkZximI01g4)
 
