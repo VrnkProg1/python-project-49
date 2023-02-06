@@ -12,3 +12,9 @@
 [Арифметическая прогрессия](https://asciinema.org/a/MJ05B9jAK6HqySiofYEeIB4qk)
 
 [Простое ли число](https://asciinema.org/a/RpiVfJICH24O2H7KqedwhhTUv)
+
+1. Установите python версии 3.6 или выше. sudo apt install python3
+2. Удостоверьтесь, что у вас установлен свежий pip. Потребуется версия 19 и выше. pip install --user
+3. Установите poetry curl -sSL https://install.python-poetry.org | python3 -
+4. Установка пакета make install
+5. Подключите в зависимости библиотеку prompt (командой poetry add prompt)
