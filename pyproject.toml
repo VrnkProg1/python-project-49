@@ -10,6 +10,7 @@ repository = "https://github.com/VrnkProg1/python-project-49.git"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+prompt = "^0.4.1"
 
 
 [tool.poetry.scripts]
