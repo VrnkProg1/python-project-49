@@ -12,4 +12,4 @@ def even():
         correct = True
     elif number % 2 != 0:
         correct = False
-    return int(correct), question, number
+    return int(correct), int(question), number
