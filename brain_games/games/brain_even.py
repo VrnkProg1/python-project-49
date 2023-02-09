@@ -13,4 +13,3 @@ def even():
     elif number % 2 != 0:
         correct = False
     return int(correct), question, number
-    
