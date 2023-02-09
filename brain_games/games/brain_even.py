@@ -7,7 +7,7 @@ def rules():
     
 def even():
     number = randint(1, 100)
-    question = 'Question: '
+    question = 'Question:'
     if number % 2 == 0:
         correct = True
     elif number % 2 != 0:
