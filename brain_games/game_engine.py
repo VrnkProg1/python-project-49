@@ -4,7 +4,7 @@ import prompt
 def welcome_user(rulesarg, game):
     print('Welcome to the Brain Games! ')
     name = prompt.string('May I have your name? ')
-    print('Hello,', name + '!')
+    print(f'Hello, {name} !')
     count = 0
     rulesarg()
     while count < 3:
