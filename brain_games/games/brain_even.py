@@ -9,7 +9,7 @@ def even():
     number = randint(1, 100)
     question = 'Question:'
     if number % 2 == 0:
-        correct = True
+        correct = 'True'
     elif number % 2 != 0:
-        correct = False
-    return int(correct), str(question), number
+        correct = 'False'
+    return correct, question, number
