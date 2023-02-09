@@ -20,7 +20,7 @@ def welcome_user(rulesarg, game):
             count += 1
         elif (correct == False and answer == 'yes') or (correct == True and answer == 'no'):
             wrong = 'is wrong answer ;(. Correct answer was'
-            print(f"'{answer}' {wrong} '{expected_answer}'")
+            print(f"'{answer} + {wrong} + {expected_answer}'")
             print("Let's try again, " + name + '!')
             break
         if count == 3:

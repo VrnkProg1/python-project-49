@@ -7,8 +7,10 @@ def rules():
     
 def even():
     number = randint(1, 100)
+    question = 'Question: '
     if number % 2 == 0:
-        return True
+        correct = True
     elif number % 2 != 0:
-        return False
+        correct = False
+    return correct, question, number
     
