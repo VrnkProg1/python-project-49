@@ -8,7 +8,7 @@ def welcome_user(rulesarg, game):
     count = 0
     rulesarg()
     while count < 3:
-        correct, question = game()
+        correct, question, number = game()
         print(question, number)
         if correct == 'False':
             expected_answer = 'no'

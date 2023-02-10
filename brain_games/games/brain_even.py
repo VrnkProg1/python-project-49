@@ -13,4 +13,4 @@ def even():
     elif number % 2 != 0:
         correct = 'False'
     number = str(number)
-    return correct, question
+    return correct, question, number
