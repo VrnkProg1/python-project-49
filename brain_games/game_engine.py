@@ -1,7 +1,7 @@
 import prompt
 
 
-def welcome_user(rulesarg, game):
+def hull_of_game(rulesarg, game):
     print('Welcome to the Brain Games! ')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
@@ -14,24 +14,31 @@ def welcome_user(rulesarg, game):
             expected_answer = 'yes'
         elif correct == 'False':
             expected_answer = 'no'
-        if correct == int():
-            expected_answer = correct
+        elif correct == int(correct):
+            expected_answer = str(correct)
         answer = prompt.string('Your answer: ')
-        if (correct == 'True' and answer == 'yes') or (correct == 'False' and answer == 'no'):
+        if correct == 'True' and answer == 'yes':
             print('Correct!')
             count += 1
-        elif (correct == 'False' and answer == 'yes') or (correct == 'True' and answer == 'no'):
+        elif correct == 'False' and answer == 'no':
+            print('Correct!')
+            count += 1
+        elif correct == 'False' and answer == 'yes':
             wrong = 'is wrong answer ;(. Correct answer was'
             print(f"'{answer}' {wrong} '{expected_answer}'")
             print("Let's try again, " + name + '!')
-            break
-        if correct == int() and correct == answer:
-            print('Correct!')
-            count += 1
-        elif correct == int() and correct != answer:
+            return
+        elif correct == 'True' and answer == 'no':
             wrong = 'is wrong answer ;(. Correct answer was'
             print(f"'{answer}' {wrong} '{expected_answer}'")
             print("Let's try again, " + name + '!')
-            break
-        if count == 3:
-            print('Congratulations, ' + name + '!')
+            return
+        elif int(answer) == correct:
+            print('Correct!')
+            count += 1
+        elif int(answer) != correct:
+            wrong = 'is wrong answer ;(. Correct answer was'
+            print(f"'{answer}' {wrong} '{expected_answer}'")
+            print("Let's try again, " + name + '!')
+            return
+    print('Congratulations, ' + name + '!')
