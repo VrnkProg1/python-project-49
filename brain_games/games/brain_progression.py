@@ -20,4 +20,4 @@ def progression():
     a = ''
     for i in list:
         a += f'{i} '
-    return correct, question, list
+    return correct, question, a
