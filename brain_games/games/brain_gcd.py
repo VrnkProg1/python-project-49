@@ -6,13 +6,14 @@ def rules():
 
 
 def gcd():
-    a = randint(1, 1000)
-    b = randint(1, 1000)
-    print('Question:', a, b)
+    a = randint(1, 50)
+    b = randint(1, 50)
+    question = 'Question:'
+    expression = f'{a} {b}'
     while a != 0 and b != 0:
         if a > b:
             a = a % b
         else:
             b = b % a
-    val = a + b
-    return val
+    correct = a + b
+    return correct, question, expression
