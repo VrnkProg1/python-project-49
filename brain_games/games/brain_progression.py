@@ -6,18 +6,18 @@ def rules():
 
 
 def progression():
+    question = 'Question:'
     list = []
     step = random.randint(1, 20)
-    first = random.randint(0, 1000)
+    first = 1
     while len(list) < 10:
         list.append(first)
         first += step
     index = random.randint(0, 9)
-    val = list[index]
+    correct = list[index]
     b = ".."
     list[index] = b
     a = ''
     for i in list:
         a += f'{i} '
-    print('Question:', a)
-    return val
+    return correct, question, list
