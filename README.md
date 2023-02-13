@@ -38,5 +38,5 @@
 
 [Простое ли число](https://asciinema.org/a/RpiVfJICH24O2H7KqedwhhTUv)
 
-<script src="https://asciinema.org/a/upGne8wMNye1vUmkZximI01g4" id="asciicast-14" async></script>
-<a href="https://asciinema.org/a/upGne8wMNye1vUmkZximI01g4"><img src="https://asciinema.org/a/upGne8wMNye1vUmkZximI01g4.png" width="836"/></a>
+
+[![asciicast](https://asciinema.org/a/upGne8wMNye1vUmkZximI01g4.png)](https://asciinema.org/a/upGne8wMNye1vUmkZximI01g4)
