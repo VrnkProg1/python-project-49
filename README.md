@@ -27,7 +27,7 @@
 1. Установите python.(см. урок по [установке](https://ru.hexlet.io/courses/python-setup-environment/lessons/setup/theory_unit))
 2. Установите pip:
 
-[![asciicast](https://asciinema.org/connect/70936414-85d8-4a32-990b-5788ce5c05a5.png)](https://asciinema.org/connect/70936414-85d8-4a32-990b-5788ce5c05a5)
+[![asciicast](https://asciinema.org/a/UVZORKDoVIsaRGmSdGGEx6Vqi.png)](https://asciinema.org/a/UVZORKDoVIsaRGmSdGGEx6Vqi)
 
 
 3. Установите пакет hexlet-code:
