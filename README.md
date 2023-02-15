@@ -17,26 +17,46 @@
 
 
 Минимальные требования:
-    1. PIP 
+    1. Pip
     2. Poetry 
     3. Пакет hexlet-code 
-    4. Библиотека prompt 
+    4. Библиотека prompt
+    5. python версии 3.6 и выше
  
 
-1. Установите python: Удостоверьтесь, что у вас установлен свежий pip. Потребуется версия 19 и выше. 
-2. [Установите пакет](https://asciinema.org/a/PAcQxq5xfo6tAUYYx0LjOsj6b):
- pip install --user --force-reinstall dist/*.whl 
-3. [Установите библиотеку prompt](https://asciinema.org/a/FwgVAXZyIpXSaWXMcR3rnxbat): poetry add prompt
+1. Установите python.(см. урок по [установке](https://ru.hexlet.io/courses/python-setup-environment/lessons/setup/theory_unit))
+2. Установите pip:
 
-[Четное-нечетное](https://asciinema.org/a/upGne8wMNye1vUmkZximI01g4)
+[![asciicast](https://asciinema.org/connect/70936414-85d8-4a32-990b-5788ce5c05a5.png)](https://asciinema.org/connect/70936414-85d8-4a32-990b-5788ce5c05a5)
 
-[Калькулятор](https://asciinema.org/a/Bh8Wl2qwtPTin9de3a6TSHNrF)
 
-[Наибольший общий делитель (НОД)](https://asciinema.org/a/OJ0GJwpZMgc7rBQiBRLoEuRvL)
+3. Установите пакет hexlet-code:
 
-[Арифметическая прогрессия](https://asciinema.org/a/MJ05B9jAK6HqySiofYEeIB4qk)
+[![asciicast](https://asciinema.org/a/PAcQxq5xfo6tAUYYx0LjOsj6b.png)](https://asciinema.org/a/PAcQxq5xfo6tAUYYx0LjOsj6b)
 
-[Простое ли число](https://asciinema.org/a/RpiVfJICH24O2H7KqedwhhTUv)
+ 
+4. Установите библиотеку prompt:
 
+[![asciicast](https://asciinema.org/a/FwgVAXZyIpXSaWXMcR3rnxbat.png)](https://asciinema.org/a/FwgVAXZyIpXSaWXMcR3rnxbat)
+
+
+
+Четное-нечетное:
 
 [![asciicast](https://asciinema.org/a/upGne8wMNye1vUmkZximI01g4.png)](https://asciinema.org/a/upGne8wMNye1vUmkZximI01g4)
+
+Калькулятор:
+
+[![asciicast](https://asciinema.org/a/Bh8Wl2qwtPTin9de3a6TSHNrF.png)](https://asciinema.org/a/Bh8Wl2qwtPTin9de3a6TSHNrF)
+
+Наибольший общий делитель (НОД):
+
+[![asciicast](https://asciinema.org/a/OJ0GJwpZMgc7rBQiBRLoEuRvL.png)](https://asciinema.org/a/OJ0GJwpZMgc7rBQiBRLoEuRvL)
+
+Арифметическая прогрессия:
+
+[![asciicast](https://asciinema.org/a/MJ05B9jAK6HqySiofYEeIB4qk.png)](https://asciinema.org/a/MJ05B9jAK6HqySiofYEeIB4qk)
+
+Простое ли число:
+
+[![asciicast](https://asciinema.org/a/RpiVfJICH24O2H7KqedwhhTUv.png)](https://asciinema.org/a/RpiVfJICH24O2H7KqedwhhTUv)
