@@ -1,7 +1,7 @@
 import prompt
 
 
-def hull_of_game(rulesarg, game):
+def hull_of_game(rulesarg, game):  # noqa: C901
     print('Welcome to the Brain Games! ')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
