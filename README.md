@@ -29,6 +29,9 @@
 
 [![asciicast](https://asciinema.org/a/UVZORKDoVIsaRGmSdGGEx6Vqi.png)](https://asciinema.org/a/UVZORKDoVIsaRGmSdGGEx6Vqi)
 
+3. Установите poetry:
+
+[![asciicast](https://asciinema.org/a/iTjK0TQsjzkM8hg2E3sxuELG7.png)](https://asciinema.org/a/iTjK0TQsjzkM8hg2E3sxuELG7)
 
 3. Установите пакет hexlet-code:
 
