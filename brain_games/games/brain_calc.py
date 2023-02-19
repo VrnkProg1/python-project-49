@@ -2,7 +2,8 @@ import random
 
 
 def rules():
-    print('What is the result of the expression?')
+    rules = 'What is the result of the expression?'
+    return rules
 
 
 def calc():
@@ -12,12 +13,13 @@ def calc():
     value2 = random.randint(1, 15)
     operator = random.sample(list_of_operands, 1)
     if operator == ['+']:
-        correct = value1 + value2
+        correct_number = value1 + value2
         expression = f'{value1} + {value2}'
     elif operator == ['-']:
-        correct = value1 - value2
+        correct_number = value1 - value2
         expression = f'{value1} - {value2}'
     elif operator == ['*']:
-        correct = value1 * value2
+        correct_number = value1 * value2
         expression = f'{value1} * {value2}'
+    correct = str(correct_number)
     return correct, question, expression

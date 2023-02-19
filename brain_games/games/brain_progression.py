@@ -2,7 +2,8 @@ import random
 
 
 def rules():
-    print('What number is missing in the progression?')
+     rules = 'What number is missing in the progression?'
+     return rules
 
 
 def progression():
@@ -14,10 +15,11 @@ def progression():
         list.append(first)
         first += step
     index = random.randint(0, 9)
-    correct = list[index]
-    b = ".."
-    list[index] = b
-    a = ''
+    correct_number = list[index]
+    missing_number = ".."
+    list[index] = missing_number
+    progression = ''
     for i in list:
-        a += f'{i} '
-    return correct, question, a
+        progression += f'{i} '
+    correct = str(correct_number)
+    return correct, question, progression

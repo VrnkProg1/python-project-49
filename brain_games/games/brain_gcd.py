@@ -2,7 +2,8 @@ from random import randint
 
 
 def rules():
-    print('Find the greatest common divisor of given numbers.')
+    rules = 'Find the greatest common divisor of given numbers.'
+    return rules
 
 
 def gcd():
@@ -15,5 +16,6 @@ def gcd():
             first_number = first_number % second_number
         else:
             second_number = second_number % first_number
-    correct = first_number + second_number
+    correct_number = first_number + second_number
+    correct = str(correct_number)
     return correct, question, expression

@@ -2,7 +2,8 @@ import random
 
 
 def rules():
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+     rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+     return rules
 
 
 def prime():
@@ -13,7 +14,7 @@ def prime():
         if (number % i == 0):
             k += 1
     if (k <= 0):
-        correct = 'True'
+        correct = 'yes'
     else:
-        correct = 'False'
+        correct = 'no'
     return correct, question, number

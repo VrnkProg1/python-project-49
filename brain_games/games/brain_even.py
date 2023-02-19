@@ -2,14 +2,15 @@ from random import randint
 
 
 def rules():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    rules = 'Answer "yes" if the number is even, otherwise answer "no".'
+    return rules
 
 
 def even():
     number = randint(1, 100)
     question = 'Question:'
     if number % 2 == 0:
-        correct = 'True'
+        correct = 'yes'
     elif number % 2 != 0:
-        correct = 'False'
+        correct = 'no'
     return correct, question, number
