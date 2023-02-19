@@ -2,8 +2,8 @@ import random
 
 
 def rules():
-     rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-     return rules
+    rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+    return rules
 
 
 def prime():

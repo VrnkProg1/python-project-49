@@ -2,8 +2,8 @@ import random
 
 
 def rules():
-     rules = 'What number is missing in the progression?'
-     return rules
+    rules = 'What number is missing in the progression?'
+    return rules
 
 
 def progression():
