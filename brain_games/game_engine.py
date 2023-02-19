@@ -13,13 +13,11 @@ def hull_of_game(rulesarg, game):
         print(question, expression)
         answer = prompt.string('Your answer: ')
         if correct == answer:
-            expected_answer = correct
             print('Correct!')
             count += 1
         elif correct != answer:
-            expected_answer = correct
             wrong = 'is wrong answer ;(. Correct answer was'
-            print(f"'{answer}' {wrong} '{expected_answer}'")
+            print(f"'{answer}' {wrong} '{correct}'")
             print("Let's try again, " + name + '!')
             return
     print('Congratulations, ' + name + '!')
