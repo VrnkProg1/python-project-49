@@ -18,10 +18,8 @@
 
 Минимальные требования:
     1. Pip
-    2. Poetry 
-    3. Пакет hexlet-code 
-    4. Библиотека prompt
-    5. python версии 3.6 и выше
+    2. Python версии 3.6 или выше
+    3. Unix-совместимая система с Python не ниже 3.х
  
 
 1. Установите python.(см. урок по [установке](https://ru.hexlet.io/courses/python-setup-environment/lessons/setup/theory_unit))
