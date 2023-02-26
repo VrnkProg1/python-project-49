@@ -1,23 +1,23 @@
 import prompt
 
 
-def hull_of_game(rulesarg, game):
+def get_the_game_and_launch(module):
     print('Welcome to the Brain Games! ')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    rules = rulesarg()
+    rules = module.RULES_OF_THE_GAME()
     print(rules)
     count = 0
     while count < 3:
-        correct, question, expression = game()
-        print(question, expression)
+        correct_answer, expression = module.logic_of_the_game()
+        print('Question:', expression)
         answer = prompt.string('Your answer: ')
-        if correct == answer:
+        if correct_answer == answer:
             print('Correct!')
             count += 1
-        elif correct != answer:
+        elif correct_answer != answer:
             wrong = 'is wrong answer ;(. Correct answer was'
-            print(f"'{answer}' {wrong} '{correct}'")
-            print("Let's try again, " + name + '!')
+            print(f"'{answer}' {wrong} '{correct_answer}'")
+            print(f"Let's try again, {name}!")
             return
     print('Congratulations, ' + name + '!')

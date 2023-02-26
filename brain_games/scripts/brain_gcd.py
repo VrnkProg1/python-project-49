@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 
-from brain_games.game_engine import hull_of_game
-from brain_games.games.brain_gcd import gcd
-from brain_games.games.brain_gcd import rules
+from brain_games.game_engine import get_the_game_and_launch
+from brain_games.games import brain_gcd
 
 
 def main():
-    hull_of_game(rules, gcd)
+    get_the_game_and_launch(brain_gcd)
 
 
 if __name__ == '__main__':

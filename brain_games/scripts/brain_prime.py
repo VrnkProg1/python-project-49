@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 
-from brain_games.game_engine import hull_of_game
-from brain_games.games.brain_prime import prime
-from brain_games.games.brain_prime import rules
+from brain_games.game_engine import get_the_game_and_launch
+from brain_games.games import brain_prime
 
 
 def main():
-    hull_of_game(rules, prime)
+    get_the_game_and_launch(brain_prime)
 
 
 if __name__ == '__main__':
