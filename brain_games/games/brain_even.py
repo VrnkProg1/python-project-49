@@ -1,18 +1,10 @@
 from random import randint
 
 
-def RULES_OF_THE_GAME():
-    rules = 'Answer "yes" if the number is even, otherwise answer "no".'
-    return rules
+RULES_OF_GAME = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def the_number_to_check():
-    number = randint(1, 100)
-    return number
-
-
-def parity_check():
-    number = the_number_to_check()
+def parity_check(number):
     if number % 2 == 0:
         correct = 'yes'
     elif number % 2 != 0:
@@ -20,7 +12,7 @@ def parity_check():
     return correct, number
 
 
-def logic_of_the_game():
-    parity_check()
-    correct, number = parity_check()
+def generate_question_and_answer():
+    number = randint(1, 100)
+    correct, number = parity_check(number)
     return correct, number

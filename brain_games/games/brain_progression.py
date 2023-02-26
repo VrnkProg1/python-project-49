@@ -1,33 +1,26 @@
 import random
 
 
-def RULES_OF_THE_GAME():
-    rules = 'What number is missing in the progression?'
-    return rules
+RULES_OF_GAME = 'What number is missing in the progression?'
 
 
-def first_element_and_step():
+def generating_progression(step, first_element):
+    progression = []
+    while len(progression) < 10:
+        progression.append(first_element)
+        first_element += step
+    return progression
+
+
+def generate_question_and_answer():
     step = random.randint(1, 20)
     first_element = random.randint(1, 20)
-    return step, first_element
-
-
-def generating_a_progression():
-    step, first_element = first_element_and_step()
-    list = []
-    while len(list) < 10:
-        list.append(first_element)
-        first_element += step
+    progression = generating_progression(step, first_element)
     index = random.randint(0, 9)
-    correct_value = list[index]
+    correct_value = progression[index]
     missing_number = ".."
-    list[index] = missing_number
-    progression = ''
-    for i in list:
-        progression += f'{i} '
-    return correct_value, progression
-
-
-def logic_of_the_game():
-    correct_value, progression = generating_a_progression()
-    return str(correct_value), progression
+    progression[index] = missing_number
+    clean_progression = ''
+    for i in progression:
+        clean_progression += f'{i} '
+    return str(correct_value), clean_progression

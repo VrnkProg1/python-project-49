@@ -1,18 +1,10 @@
 import random
 
 
-def RULES_OF_THE_GAME():
-    rules = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    return rules
+RULES_OF_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def number_for_cheking():
-    number = random.randint(0, 5)
-    return number
-
-
-def checking_for_simplicity():
-    number = number_for_cheking()
+def checking_for_simplicity(number):
     if number > 1:
         for i in range(2, int(number / 2) + 1):
             if number % i == 0:
@@ -25,7 +17,7 @@ def checking_for_simplicity():
     return correct, number
 
 
-def logic_of_the_game():
-    checking_for_simplicity()
-    correct, number = checking_for_simplicity()
+def generate_question_and_answer():
+    number = random.randint(0, 100)
+    correct, number = checking_for_simplicity(number)
     return correct, number
