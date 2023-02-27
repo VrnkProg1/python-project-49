@@ -4,23 +4,21 @@ import random
 RULES_OF_GAME = 'What is the result of the expression?'
 
 
-def generate_expression(value1, value2, operator):
-    if operator == ['+']:
+def calculate_value(value1, value2, operator):
+    if operator == '+':
         correct_value = value1 + value2
-        expression = f'{value1} + {value2}'
-    elif operator == ['-']:
+    elif operator == '-':
         correct_value = value1 - value2
-        expression = f'{value1} - {value2}'
-    elif operator == ['*']:
+    elif operator == '*':
         correct_value = value1 * value2
-        expression = f'{value1} * {value2}'
-    return correct_value, expression
+    return correct_value
 
 
 def generate_question_and_answer():
     list_of_operands = ['+', '-', '*']
     value1 = random.randint(1, 15)
     value2 = random.randint(1, 15)
-    operator = random.sample(list_of_operands, 1)
-    correct_value, expression = generate_expression(value1, value2, operator)
+    operator = random.choice(list_of_operands)
+    correct_value = calculate_value(value1, value2, operator)
+    expression = f'{value1} {operator} {value2}'
     return str(correct_value), expression
