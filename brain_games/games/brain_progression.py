@@ -17,7 +17,7 @@ def generate_question_and_answer():
     step = random.randint(1, 20)
     first_element = random.randint(1, 20)
     progression = generate_progression(step, first_element, lenght)
-    index = random.randint(0, lenght)
+    index = random.randint(0, lenght-1)
     correct_value = progression[index]
     missing_number = ".."
     progression[index] = missing_number
